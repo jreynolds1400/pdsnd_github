@@ -17,3 +17,5 @@ It's important to give proper credit. Add links to any repo that inspired you or
 This is pretty cool making all these changes. I'm having fun with Udacity!
 
 We need to make some additional changes to this file as part of the project
+
+One last change to prep for bikeshare.py changes
