@@ -194,10 +194,7 @@ def user_stats_birthyear(df):
     most_recent_birth_year = int(df['Birth Year'].max())
     earliest_birth_year = int(df['Birth Year'].min())
 
-    print("  Most common birth year:", most_common_birth_year)
-    print("\n  Most recent birth year:", most_recent_birth_year)
-    print("\n  Earliest birth year:", earliest_birth_year)
-
+    print("The most common birth year is {} with {} most recent birth year and {} as earliest birth year.".format(most_common_birth_year, most_recent_birth_year, earliest_birth_year))
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
     
@@ -205,11 +202,9 @@ def user_stats_birthyear(df):
 def display_data(df):
     display = input('\nWould you like to view individual trip data? Type \'yes\' or \'no\'.\n').lower()
     while display == "yes":
-        x = 0
-        y = 5
+        x, y = 0, 5
         while x < len(df.index):
-            x = x + 5
-            y = y + 5
+            x, y = (x + 5),(y + 5)
             print(df.iloc[x:y])
             if display == "no":
                 break
