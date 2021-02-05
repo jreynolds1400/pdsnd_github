@@ -1,21 +1,23 @@
 ### Date created
-Include the date you created this project and README file.
+2/5/2015
 
 ### Project Title
-Replace the Project Title
+BikeShare Project
 
 ### Description
-Describe what your project is about and what it does
+This project analyzes data from bike sharing in three target cities
 
 ### Files used
-Include the files used
-
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+bikeshare.py
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Changes
-This is pretty cool making all these changes. I'm having fun with Udacity!
+The following outlines changes within the project
 
-We need to make some additional changes to this file as part of the project
+#### Bikeshare.py
+Adding the bikeshare python project to the repository. 
 
-One last change to prep for bikeshare.py changes
+##### Bikeshare.py File Changes
+As part of this project we have streamlined code within the BikeShare.py file in order to save processing times from reducing coding lines
